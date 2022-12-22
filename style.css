@@ -1,0 +1,201 @@
+.container{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width : 70vw;
+    margin : 5% auto;
+    padding : 1.5rem;
+    border-radius : 8px;
+    font-family : "Plus Jakarta Sans";
+}
+
+.heading{
+    display : flex;
+    margin-bottom : 60px;
+    
+}
+.Notification{
+    position :absolute;
+    font-size: x-large;
+    font-weight: bold;
+}
+.count{
+    background-color: rgb(6, 36, 126);
+    height : 27px;
+    width : 27px;
+    color : white;
+    font-weight : bold;
+    border-radius : 8px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin-left : 19px;
+    position: absolute;
+    left: 302px;
+    top: 88px;
+}
+.read{
+    position : absolute;
+    left : 976px;
+    cursor : pointer;
+    font-size : small;
+    color : grey;
+
+}
+.read:hover{
+    color : blue;
+}
+a:hover{
+    color : blue;
+}
+.unread_not{
+    display : flex;
+    flex-direction : row;
+    align-items: center;
+     padding-left : 10px;
+}
+
+.unread{
+    display : flex;
+    flex-direction: column;
+    margin-top : 10px;
+    background-color: rgb(206, 232, 254);
+    height : 55px;
+    border-radius: 10px;
+    
+    justify-content: center;
+    padding-bottom : 11px;
+    
+}
+img{
+    border-radius : 50%;
+    border : 1px solid grey;
+    margin-right : 20px;
+
+}
+.content{
+    margin-bottom : 5px;
+    padding-top : 5px;
+}
+a{
+    text-decoration : none;
+    color : black;
+    cursor : pointer;
+    font-weight: bold;
+    
+
+}
+.reddot{
+    height : 5px;
+    width : 5px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left : 5px;
+
+}
+.timeAgo1{
+    margin-left : 55px;
+    position: relative;
+    top: -7px;
+    left : 14px;
+
+}
+.timeAgo2{
+    margin-left : 55px;
+    position: relative;
+    top: -7px;
+    left : 14px;
+
+
+    
+}
+.timeAgo3{
+    margin-left : 55px;
+    position : relative;
+    top : -7px;
+    left : 14px;
+}
+.timeAgo4{
+    margin-left : 55px;
+    position : relative;
+    top : 22px;
+    left : -396px;
+}
+.timeAgo5{
+    position: relative;
+    top: -18px;
+    left: 53px;
+}
+.timeAgo6{
+    position: relative;
+    top: -18px;
+    left: 55px;
+}
+
+.pic{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    position : relative;
+    top : 10px;
+}
+
+.read_not{
+    display : flex;
+    flex-direction : row;
+    align-items: center;
+     padding-left : 10px;
+}
+
+.readmsg{
+    display : flex;
+    flex-direction: column;
+    margin-top : 10px;
+    height : 55px;
+    border-radius: 10px;
+    
+    justify-content: center;
+    padding-bottom : 20px;
+    
+}
+.msg{
+    background-color: rgb(227, 238, 249);
+    height : 55px;
+    margin-left : 100px;
+    margin-right : 50px;
+    border-radius : 10px;
+    padding : 10px;
+    display : flex;
+    align-items: center;
+}
+
+.main_ks{
+    display : flex;
+    flex-direction: column;
+    padding-left : 10px;
+    margin-top: 10px;
+    background-color: white;
+    padding-top:10px;
+    border-radius : 10px;
+}
+.kimberlysmith{
+    display : flex;
+}
+
+.commented_img{
+    position: relative;
+    top: 10px;
+    left: 471px;}
+
+.main_np{
+        display : flex;
+        flex-direction: column;
+        padding-left : 10px;
+        margin-top: 10px;
+        background-color: white;
+        padding-top:10px;
+        border-radius : 10px;
+}
+.nathanpeterson{
+        display : flex;
+}
+    
